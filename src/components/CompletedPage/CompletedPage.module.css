@@ -1,0 +1,69 @@
+.completedPage {
+  margin-top: 1rem;
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+}
+
+.codeBox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 15rem;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.xValue {
+  color: grey;
+}
+
+.shareContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 1.2rem;
+}
+.sharePlease {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.answers {
+  font-size: 0.9rem;
+}
+
+.answersContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.copyMessage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.1s ease-in;
+}
+
+.blendInCopyMessage {
+  visibility: visible;
+  opacity: 1;
+}

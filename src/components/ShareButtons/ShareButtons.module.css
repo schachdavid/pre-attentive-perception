@@ -1,0 +1,51 @@
+.socialMediaFooter {
+  color: rgb(29, 29, 29);
+  font-size: 1.8rem;
+  width: 11rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialMediaFooter a {
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(182, 62, 62);
+  border-radius: 3rem;
+  color: #1d3a64;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialMediaFooter a:nth-child(1) {
+  background-color: rgb(182, 62, 62);
+}
+
+.socialMediaFooter a:hover:nth-child(1) {
+  background-color: rgb(209, 71, 71);
+}
+
+.socialMediaFooter a:nth-child(2) {
+  background-color: #0088cc;
+}
+
+.socialMediaFooter a:hover:nth-child(2) {
+  background-color: #4b9fc9;
+}
+
+.socialMediaFooter a:nth-child(3) {
+  background-color: #25d366;
+}
+
+.socialMediaFooter a:hover:nth-child(3) {
+  background-color: #5cd588;
+}
+
+.socialMediaFooter .icon {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.socialMediaFooter svg {
+  stroke-width: 1.4;
+}
